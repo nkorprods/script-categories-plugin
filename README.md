@@ -8,19 +8,6 @@ A Godot 4 editor plugin that organizes your scripts into categories directly in 
 
 If your project has dozens of scripts, Godot's list of open scripts gets hard to use: you close a script and then dig through folders to find it again. Script Categories replaces that list with one tidy panel where every script in the project is always available, grouped the way you want, without moving a single file.
 
-## Features
-
-- **Categories and subcategories.** Group scripts under your own headers like `--- GAME ---`, with subcategories nested inside a parent. A script can live in several categories.
-- **Everything in one list.** Open help pages, text files, shaders and any other tabs get their own sections above the scripts, so nothing disappears when Godot's own list is hidden.
-- **Folded by default.** The Scripts section starts closed so it takes a single row. Fold state is remembered per project.
-- **Drag and drop.** Select several scripts with Ctrl or Shift and drag them onto a category. Hold Ctrl while dropping to copy instead of move.
-- **Search.** Matches file names, paths, class names and what a script extends.
-- **Undo.** Ctrl+Z (or the undo button) reverses category changes.
-- **Sorting.** By name or by most recently edited.
-- **Open state at a glance.** Scripts that are not open are dimmed, and unsaved scripts get a (*) marker.
-- **Right-click actions.** Open everything in a category, open the scene that uses a script, show a script in the FileSystem dock, copy its path, close a tab.
-- **Safe when files move.** Assignments follow each script's UID, so renaming or moving a script keeps its categories.
-
 ## Usage
 
 - Click the **+** button to create a category, then drag scripts onto it, or right-click a script and choose "Add to".
