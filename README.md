@@ -4,8 +4,6 @@
 
 A Godot 4 editor plugin that organizes your scripts into categories directly in the Script editor's left panel.
 
-![Script Categories panel](images/screenshot.png)
-
 ## What is it?
 
 If your project has dozens of scripts, Godot's list of open scripts gets hard to use: you close a script and then dig through folders to find it again. Script Categories replaces that list with one tidy panel where every script in the project is always available, grouped the way you want, without moving a single file.
