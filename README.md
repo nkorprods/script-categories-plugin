@@ -21,22 +21,6 @@ If your project has dozens of scripts, Godot's list of open scripts gets hard to
 - **Right-click actions.** Open everything in a category, open the scene that uses a script, show a script in the FileSystem dock, copy its path, close a tab.
 - **Safe when files move.** Assignments follow each script's UID, so renaming or moving a script keeps its categories.
 
-## Installation
-
-### GitHub Releases (stable)
-
-1. Download the latest zip from the [releases page](../../releases).
-2. Extract it and move the `addons/script_categories` folder into your project's `addons` folder.
-3. Enable the plugin in `Project > Project Settings > Plugins`.
-
-### GitHub main (latest, may be unstable)
-
-1. Download the [main branch](../../archive/refs/heads/main.zip).
-2. Extract it and move the `addons/script_categories` folder into your project's `addons` folder.
-3. Enable the plugin in `Project > Project Settings > Plugins`.
-
-For more help, see [Godot's documentation on installing plugins](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html).
-
 ## Usage
 
 - Click the **+** button to create a category, then drag scripts onto it, or right-click a script and choose "Add to".
@@ -59,10 +43,6 @@ The same options, with their default values, are listed in the `SETTINGS` block 
 - Tested on Godot 4.7.
 - The plugin finds Godot's script list by looking for its "Filter Scripts" box. If a future editor version changes that layout, the panel falls back to a normal dock and prints a warning in the Output panel.
 - Only text scene files (`.tscn`) are searched when looking for the scene that uses a script.
-
-## Contributing
-
-Bug reports, ideas and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
